@@ -1,0 +1,436 @@
+@import "vars";
+@import "mixins";
+
+@media screen and (max-width: 1200px) {
+  .about {
+    .about__wrapper {
+      padding: 70px 0;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .about__text {
+        max-width: 90%;
+      }
+
+      .about__cards {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: auto;
+        right: auto;
+        margin-top: 30px;
+
+        .card__body {
+          width: calc(33.333333% - 15px);
+
+          &:not(:last-child) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .our-team {
+    .our-team__wrapper {
+      padding: 70px 0;
+
+      ul {
+        columns: 2;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero {
+
+    .breadcrumbs {
+      display: none;
+    }
+
+    .hero__wrapper {
+      .hero__content {
+        margin-bottom: 15px;
+
+        .hero__logo {
+          width: 149px;
+          height: 60px;
+        }
+
+        span {
+          max-width: 100%;
+          font-size: 33px;
+          line-height: 38px;
+          margin-bottom: 15px;
+        }
+
+        p {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  .about {
+    .about__wrapper {
+      .about__cards {
+        flex-direction: column;
+
+        .card__body {
+          width: 100%;
+
+          &:not(:last-child) {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .services {
+    padding: 70px 0;
+
+    .services__wrapper {
+      .services__body {
+        .services__card {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .our-team {
+    .our-team__wrapper {
+      ul {
+        columns: 1;
+
+        li {
+          p {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .vacancies {
+    padding: 70px 0;
+
+    .vacancies__wrapper {
+      .vacancies__top {
+        > div {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+
+      .vacancies__body {
+        .vacancies__list {
+          .list__item {
+            > div {
+              &:last-child {
+                flex-direction: column;
+
+                > div {
+                  &:first-child {
+                    width: 100%;
+                    margin-bottom: 10px;
+                  }
+
+                  &:last-child {
+                    margin-left: auto;
+                  }
+                }
+              }
+            }
+          }
+
+          .list__item.active {
+            > div {
+              &:last-child {
+                max-height: 800px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    .about-bg {
+      height: 279px;
+    }
+  }
+
+  .services {
+    .services__wrapper {
+      .services__body {
+        .services__card {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .our-team {
+    .our-team-bg {
+      height: 320px;
+    }
+  }
+
+  .vacancies {
+    .vacancies__wrapper {
+      .vacancies__body {
+        .vacancies__list {
+          .list__item.active {
+            > div {
+              &:last-child {
+                padding: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .go-to {
+    .go-to__list {
+      .list__item {
+        span {
+          height: 25px;
+          width: 25px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .hero {
+
+    .breadcrumbs {
+      display: none;
+    }
+
+    .hero__wrapper {
+      .hero__content {
+        margin-bottom: 0;
+
+        .hero__logo {
+          margin-bottom: 15px;
+        }
+
+        p {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .vacancies {
+    padding: 70px 0;
+
+    .vacancies__wrapper {
+      .vacancies__top {
+        > div {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+
+      .vacancies__body {
+        .vacancies__list {
+          .list__item {
+            > div {
+              &:last-child {
+                flex-direction: column;
+
+                > div {
+                  &:first-child {
+                    width: 100%;
+                    max-height: 300px;
+                    margin-bottom: 10px;
+                  }
+
+                  &:last-child {
+                    margin-left: auto;
+                  }
+                }
+              }
+            }
+          }
+
+          .list__item.active {
+            > div {
+              &:last-child {
+                max-height: 800px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .popup {
+    .popup__wrapper {
+      width: calc(100% - 30px);
+      height: auto;
+      margin: 120px auto 120px;
+
+      .popup__form {
+        form {
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .go-to {
+    display: none;
+  }
+
+  .popup {
+    .popup__wrapper {
+      padding: 20px 15px;
+
+      .popup__title {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .about {
+    > img {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+
+  .services {
+    .services__wrapper {
+      .services__body {
+        .services__card {
+          .card__top {
+            div {
+              align-items: center;
+
+              h3 {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .our-team {
+    .our-team-bg {
+      height: 137px;
+    }
+  }
+
+  .our-awards {
+    .our-awards__wrapper {
+      .our-awards-slider {
+        .our-awards-button-prev {
+          left: 10%;
+          right: auto;
+        }
+
+        .our-awards-button-next {
+          right: 10%;
+        }
+      }
+    }
+  }
+
+  .vacancies {
+    .vacancies__wrapper {
+      .vacancies__body {
+        .vacancies__list {
+          .list__item {
+            > div {
+              &:first-child {
+                a {
+                  width: 50px;
+                  height: 50px;
+
+                  span {
+                    display: none;
+                  }
+
+                  svg {
+                    margin: 0;
+                  }
+                }
+              }
+
+              &:last-child {
+                padding: 0;
+
+                > div {
+                  &:first-child {
+                    max-height: 310px;
+                  }
+                }
+              }
+            }
+          }
+
+          .list__item.active {
+            > div {
+
+              &:last-child {
+                padding: 30px 0;
+                max-height: 660px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .vacancies {
+    .vacancies__wrapper {
+      .vacancies__body {
+        .vacancies__list {
+          .list__item {
+            > div {
+              &:last-child {
+                > div {
+                  &:first-child {
+                    max-height: 198px;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

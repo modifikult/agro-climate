@@ -1,0 +1,114 @@
+@import "../vars";
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.5);
+
+
+  .popup__wrapper {
+    position: relative;
+    transform: translate(0, -100%);
+    width: 646px;
+    height: auto;
+    margin: 120px auto 120px;
+    background: #F6F8FB;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+
+    .close-popup {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+
+      :hover {
+        cursor: pointer;
+      }
+    }
+
+    .popup__title {
+      font-size: 32px;
+      line-height: 37px;
+      color: $green-main-color;
+      margin-bottom: 40px;
+    }
+
+
+    .popup__form {
+      form {
+        label {
+          width: 100%;
+          color: #C9C9C9;
+          margin-bottom: 10px;
+
+          input {
+            width: 100%;
+            background: #FFFFFF;
+            border: 1px solid #D2DED9;
+            box-sizing: border-box;
+            border-radius: 10px;
+            padding: 16px 30px;
+
+
+            &::placeholder {
+              color: #C9C9C9;
+            }
+          }
+
+          input[type='file'] {
+            display: none;
+
+            + span {
+              padding: 8px 25px;
+              border: 1px solid #616161;
+              box-sizing: border-box;
+              border-radius: 100px;
+
+              :hover {
+                cursor: pointer;
+              }
+            }
+          }
+          input[type='file']:checked {
+            display: block;
+          }
+
+          input[type='checkbox'] {
+            width: 14px !important;
+            height: 14px !important;
+            padding: 0;
+          }
+
+          input:invalid {
+            border: 1px solid #D74936;
+          }
+
+          textarea {
+            width: 100%;
+            background: #FFFFFF;
+            border: 1px solid #D2DED9;
+            box-sizing: border-box;
+            border-radius: 10px;
+            height: 176px;
+            padding-left: 30px;
+            padding-top: 13px;
+            resize: none;
+
+            &::placeholder {
+              color: #C9C9C9;
+            }
+          }
+        }
+        button {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

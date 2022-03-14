@@ -1,0 +1,36 @@
+@import "../vars";
+
+.services-popup {
+  opacity: 0;
+  z-index: -10;
+  transition: all .5s ease-out;
+
+
+  .services-popup__wrapper {
+    opacity: 0;
+    z-index: -10;
+    transition: all .5s ease-out;
+
+    .popup__form {
+      form {
+        label {
+          &:nth-child(6) {
+            font-size: 14px;
+            color: #97abc9;
+          }
+        }
+      }
+    }
+  }
+}
+
+.services-popup.services-popup--visible {
+  z-index: 100;
+  opacity: 1;
+
+  .services-popup__wrapper {
+    transform: translate(0, 0);
+    opacity: 1;
+    z-index: 150;
+  }
+}

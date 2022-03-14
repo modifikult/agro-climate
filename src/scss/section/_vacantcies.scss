@@ -1,0 +1,150 @@
+@import "../vars";
+@import "../mixins";
+
+.vacancies {
+  background: white;
+  padding: 100px 0;
+
+  .vacancies__wrapper {
+    .vacancies__top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      > div {
+        &:first-child {
+          max-width: 600px;
+
+          h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+          }
+        }
+
+        &:last-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    .vacancies__body {
+      .vacancies__list {
+        list-style: none;
+        margin-bottom: 0;
+
+        > :not(:first-child) {
+          margin-top: 66px;
+        }
+
+        .list__item {
+          margin: 50px auto 109px;
+          max-width: 1370px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          > div {
+            &:first-child {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding-bottom: 20px;
+              border-bottom: 1px solid #DEDEDE;
+
+              > span {
+                font-size: 18px;
+                font-weight: 700;
+              }
+
+              a {
+                border: 1px solid $green-main-color;
+                display: flex;
+                justify-content: center;
+
+                &:hover {
+                  background: $green-main-color;
+                  color: white;
+
+                  svg {
+                    path {
+                      fill: #fff;
+                    }
+                  }
+                }
+
+                svg {
+                  margin-left: 15px;
+                }
+              }
+            }
+
+            &:last-child {
+              background: #F6F6F6;
+              max-height: 0;
+              padding: 0;
+              overflow: hidden;
+              display: flex;
+              transition: all 1s ease-in-out;
+
+              > div {
+                &:first-child {
+                  flex: 0 0 438px;
+                  display: flex;
+                  align-items: center;
+                  height: 258px;
+
+                  img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+                }
+
+                &:last-child {
+                  margin-left: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+
+                  h3 {
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                  }
+
+                  p {
+                    margin-bottom: auto;
+                  }
+
+                  .btn {
+                    margin-top: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .list__item.active {
+          > div {
+            &:first-child {
+              a {
+                svg {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+
+            &:last-child {
+              max-height: 400px;
+              padding: 60px 40px;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

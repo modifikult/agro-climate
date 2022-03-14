@@ -1,0 +1,46 @@
+@import "vars";
+@import "mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'sans-serif';
+  font-size: 16px;
+  line-height: 22px;
+  color: $text-color;
+  z-index: -1;
+  position: relative;
+}
+
+main {
+  background: $background;
+}
+
+p {
+  color: #A5A5A5;
+}
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.leaf {
+  z-index: 20;
+}
+
+.container {
+  max-width: 1430px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

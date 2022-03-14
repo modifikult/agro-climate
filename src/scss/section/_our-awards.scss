@@ -1,0 +1,77 @@
+@import "../vars";
+@import "../mixins";
+
+.our-awards {
+  padding: 100px 0;
+  h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  .our-awards__wrapper {
+    .our-awards-slider {
+      padding-bottom: 64px;
+      position: relative;
+
+      .our-awards-slider__wrapper {
+        .our-awards-slider__slide {
+          min-height: 362px;
+          background: white;
+          box-shadow: 0 16px 45px rgba(23, 85, 41, 0.12);
+          border-radius: 20px;
+          padding: 30px;
+
+          .slide__img {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          span {
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .our-awards-button-prev,
+      .our-awards-button-next {
+        position: absolute;
+        bottom: 0;
+        top: auto;
+        background: transparent;
+        border-radius: 0;
+        height: 20px;
+        width: 100px;
+
+        svg {
+          path {
+            transition: all .4s ease;
+          }
+        }
+
+        &:hover {
+          svg {
+            path {
+              fill: $green-2-color;
+            }
+          }
+        }
+      }
+
+      .our-awards-button-prev {
+        left: auto;
+        right: calc(10% + 100px);
+      }
+
+      .our-awards-button-next {
+        right: 7.9%;
+      }
+    }
+  }
+}

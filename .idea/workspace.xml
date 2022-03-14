@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99c24fde-5491-405e-bdae-3389d3dc187e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/scss/assist/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/assist/_popup.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2134wvKIQNhd0Q107UpdFv4MxMO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\demiw\WebstormProjects\agro-climate\src\img\svg" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro_climate\src\img\svg" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro_climate\src\img" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro_climate\src\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\demiw\WebstormProjects\agro-climate\src\img" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro-climate\src\img\svg" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro_climate\src\img\svg" />
+      <recent name="C:\Users\demiw\WebstormProjects\agro_climate\src\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c24fde-5491-405e-bdae-3389d3dc187e" name="Default Changelist" comment="" />
+      <created>1637156678264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637156678264</updated>
+      <workItem from="1637156679775" duration="8658000" />
+      <workItem from="1637222816851" duration="8000000" />
+      <workItem from="1637230924159" duration="10496000" />
+      <workItem from="1637242725657" duration="9545000" />
+      <workItem from="1637252523470" duration="502000" />
+      <workItem from="1637309178886" duration="9661000" />
+      <workItem from="1637318983981" duration="6876000" />
+      <workItem from="1637325991524" duration="9646000" />
+      <workItem from="1637335774361" duration="2638000" />
+      <workItem from="1637344056930" duration="12410000" />
+      <workItem from="1637377854116" duration="231000" />
+      <workItem from="1637499666328" duration="4162000" />
+      <workItem from="1637520216916" duration="1982000" />
+      <workItem from="1637533024809" duration="53000" />
+      <workItem from="1637568949925" duration="7321000" />
+      <workItem from="1637576384332" duration="12912000" />
+      <workItem from="1637590354994" duration="3542000" />
+      <workItem from="1637594069643" duration="4811000" />
+      <workItem from="1637607823165" duration="5333000" />
+      <workItem from="1637654632019" duration="707000" />
+      <workItem from="1637655809028" duration="692000" />
+      <workItem from="1637656576051" duration="682000" />
+      <workItem from="1637657809590" duration="132000" />
+      <workItem from="1637683384007" duration="392000" />
+      <workItem from="1637741009491" duration="16000" />
+      <workItem from="1637746657830" duration="28000" />
+      <workItem from="1637746768578" duration="7000" />
+      <workItem from="1637749616129" duration="2558000" />
+      <workItem from="1637752346112" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1637741022847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1637741022847" />
+    <state x="560" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1637625641465">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="560" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.110.1920.1034/0.0.1920.1034@0.0.1920.1034" timestamp="1637625641465" />
+  </component>
+</project>
